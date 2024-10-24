@@ -34,7 +34,7 @@ plt.ylabel('Total Revenue ($)')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
-
+ 
 # Plot total orders over time
 plt.figure(figsize=(10, 6))
 sns.lineplot(data=sales_data, x='order_date', y='total_orders', marker='o', color='green')
